@@ -1,3 +1,8 @@
+* {
+  height: 500px;
+  background-color: blue;
+}
+
 .display-block {
   display: block;
 }
@@ -18,4 +23,44 @@
 
 .float-left {
   float: left;
+}
+
+/*for flex page layout*/
+
+.display-flex {
+  display: flex;
+/*  kiri kanan*/
+/*  flex-direction: row;*/
+/*  atas bawah*/
+/*  flex-direction: column;*/
+/*  reverse*/
+/*  flex-direction: row-reverse;*/
+/*  flex-direction: column-reverse;*/
+
+/*  justify-content and align-items*/
+/*  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;*/
+
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-wrapper {
+  display: flex;
+/*  justify-content: column;*/
+  align-items: flex-start;
+  width: 220px;
+  height: 300px;
+}
+
+.box {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+}
+
+#align-self-box {
+  align-self: center;
 }
