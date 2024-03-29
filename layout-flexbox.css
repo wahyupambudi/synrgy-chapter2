@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #e5e5e5;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+section {
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+article {
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+}
+
+
+@media (max-width: 576px) {
+  section {
+    flex-direction: column;
+  }
+}
